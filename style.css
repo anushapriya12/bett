@@ -13,8 +13,13 @@ body{
 	height:70px;
 	margin:auto;
 	position:relative;
-	font-size: 17px;
+	text-align:right;
 	}
+.header img{
+	position:absolute;
+	top:9px;
+	right:10px;
+}
 .header2{
 	background-color:#363636;
 	width:90%;
@@ -64,9 +69,4 @@ label{
 	border-radius:3px;
 	background-color:#ffb80c;
 	outline: none;
-}
-.remember{
-	margin-top:-5px;
-	font-size:10px;
-	letter-spacing:1px;
 }
