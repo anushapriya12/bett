@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="bethistory.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		<header id="top">
+			<div class="logo"> <img src="./images/logo.jpg"> </div>
+			<p class="blink"><marquee>Good Luck With All Your Bets!!!</marquee></p>
+			<div class="header-content"> 
+				<ul>
+					<li><button> <div class="home" onclick="location.href='dashboard.html'" ><img src="./images/home.png" > Home</li>
+					<li><button>W:0000.00</li>
+					<li><button>L:0</li>
+					<script src="java.js"> </script>
+					<li>
+						<div class="dropdown">
+						<button class="dropbtn" onclick="myFunction()"> <img src="./images/settings.png">Settings
+							<div id="myDropdown" class="dropdown-content">
+								<a href="#" onclick="location.href='accountinfo.html'">Account Info</a>
+								<a href="#" onclick="location.href='accountstat.html'">Account Statement</a>
+								<a href="#" onclick="location.href='chipsummary.html'">Chip Summary</a>
+								<a href="#" onclick="location.href='chiphistory.html'">Chip History</a>
+								<a href="#" onclick="location.href='profitloss.html'">Profit & Loss</a>
+								<a href="#" onclick="location.href='bethistory.html'">Bet History</a>
+								<a href="#" onclick="location.href='password.html'">Change Password</a>
+								<a href="#" onclick="location.href='index.html'">Logout</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="live-blink"><button><blink>LIVE</blink></div>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div class="header2"> </div>
+		<br>
+		<section>
+			<div class="section-content">
+				<ul>
+					<li><img src="./images/usersettings.png" > User Settings</li>
+					<li><img src="./images/add.png" > Add Match</li>
+					<li><img src="./images/star.png" > Favourite</li>
+					<li><img src="./images/inplay.png" > In-Play</li>
+					<li><img src="./images/bank.png" > My Market</li>
+					<li><img src="./images/cricket.png" > Cricket</li>
+					<li><img src="./images/tennis.png" > Tennis</li>
+					<li><img src="./images/soccer.png" > Soccer</li>
+					<li><img src="./images/horseriding.png" > Horse Racing</li>
+				</ul>
+			</div>
+		</section>
+		<div class="header3"> Bet History </div>
+		<div class="entry1">
+			<form>
+				From:<input type="date">
+				To:<input type="date">
+				<input type="search" placeholder="Search" size="25">
+					<select>
+						<option>Open</option>
+						<option>Settled</option>
+					</select>
+				<div class="entry2">
+				<input type="button" value="Filter" style="background-color:green" >
+				<input type="reset" value="Clear" style="background-color:red">
+				</div>
+			</form>
+		</div>
+		<table class="header4">
+			<tr>
+				<th>SL No.</th>
+				<th>Client</th>
+				<th>Description</th>
+				<th>Selection</th>
+				<th>Type</th>
+				<th>Odds</th>
+				<th>Stack</th>
+				<th>Date</th>
+				<th>P_L</th>
+				<th>Profit</th>
+				<th>Liability</th>
+				<th>Bet type</th>
+				<th>Status</th>
+				<th>IP</th>
+				<th>ID</th>
+			</tr>
+			<tr>
+				<td>1</td>							
+				<td>balaji345</td>
+				<td>Cricket>Afghanistan v Ireland (1st ODI)>Match Odds</td>
+				<td>Afghanistan</td>
+				<td>Lay</td>
+				<td>1.07</td>
+				<td>100</td>
+				<td>2019-02-28 14:00:52</td>
+				<td>7.00</td>
+				<td>0.00</td>
+				<td>7.00</td>
+				<td>Match</td>
+				<td>Open</td>
+				<td>223.238.94.111</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>balaji345</td>
+				<td>Cricket>Afghanistan v Ireland (1st ODI)>Match Odds</td>
+				<td>Afghanistan</td>
+				<td>Lay</td>
+				<td>1.07</td>
+				<td>100</td>
+				<td>2019-02-28 14:00:52</td>
+				<td>7.00</td>
+				<td>0.00</td>
+				<td>7.00</td>
+				<td>Match</td>
+				<td>Open</td>
+				<td>223.238.94.111</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<<td>balaji345</td>
+				<td>Cricket>Afghanistan v Ireland (1st ODI)>Match Odds</td>
+				<td>Afghanistan</td>
+				<td>Lay</td>
+				<td>1.07</td>
+				<td>100</td>
+				<td>2019-02-28 14:00:52</td>
+				<td>7.00</td>
+				<td>0.00</td>
+				<td>7.00</td>
+				<td>Match</td>
+				<td>Open</td>
+				<td>223.238.94.111</td>
+				<td>2</td>
+			</tr>
+		</table>
+		
+	</body>
+	
+</html>
